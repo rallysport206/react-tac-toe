@@ -1,5 +1,6 @@
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
+  text-align: center;
+  font-family: 'Sedgwick Ave Display', cursive;
   margin: 20px;
 }
 
@@ -18,18 +19,19 @@ ol, ul {
 }
 
 .square {
+  font-family: 'Sedgwick Ave Display', cursive;
   background: #fff;
-  border: 1px solid #999;
+  border: 3px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 70px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 100px;
 }
 
 .square:focus {
@@ -46,5 +48,6 @@ ol, ul {
 }
 
 .game-info {
-  margin-left: 20px;
+  font-size: 40px;
+  margin-left: 70px;
 }
